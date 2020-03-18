@@ -1,0 +1,35 @@
+<div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="task.identification" class="form-control" placeholder="Identification">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="task.firstName" class="form-control" placeholder="Firts Name">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="task.lastName" class="form-control" placeholder="Last Name">
+    </div>
+    <div class="form-group">
+        <input type="date" [(ngModel)]="task.startDate" class="form-control" placeholder="Start Date">
+    </div>
+    <div class="form-group">
+        <input type="date" [(ngModel)]="task.endDate" class="form-control" placeholder="End Date">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="task.startWorkShift" class="form-control" placeholder="startWorkShift">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="task.endWorkShift" class="form-control" placeholder="endWorkShift">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="task.startExtra" class="form-control" placeholder="startExtra">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="task.endExtra" class="form-control" placeholder="endExtra">
+    </div>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="task.extraReason" class="form-control" placeholder="extraReason">
+    </div>
+    <div>
+        <button class="btn btn-success" (click)=registerTime()>Register</button>
+    </div>
+</div>
